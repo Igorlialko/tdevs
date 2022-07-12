@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcf0915d-020a-4625-8e94-ab495d141666" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Poppins-Medium/Poppins-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Poppins-Medium/Poppins-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Poppins-Medium/Poppins-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Poppins-Medium/Poppins-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ArrowDown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/ArrowUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Preloader/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Preloader/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tab/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tab/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/const/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useTypedRedux.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/usersReducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/class.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/null.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2BbwX2t6wu3oXoM4xyhbj8dB9Fc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/User" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\tests_task_to_vakancy\topDevs\tdevs\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tests_task_to_vakancy\topDevs\tdevs\src\components\User" />
+      <recent name="D:\tests_task_to_vakancy\topDevs\tdevs\src\components" />
+      <recent name="D:\tests_task_to_vakancy\topDevs\tdevs\src" />
+      <recent name="D:\tests_task_to_vakancy\topDevs\tdevs\src\store" />
+      <recent name="D:\tests_task_to_vakancy\topDevs\tdevs" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcf0915d-020a-4625-8e94-ab495d141666" name="Default Changelist" comment="" />
+      <created>1657188129274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657188129274</updated>
+      <workItem from="1657188131933" duration="32679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

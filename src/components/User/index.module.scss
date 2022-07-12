@@ -1,0 +1,41 @@
+.user {
+  border: 1px solid aqua;
+  padding: 10px;
+  border-radius: 6px;
+
+  h2 {
+    transition: all .4s ease-in-out;
+    &.active {
+      color: blue;
+    }
+  }
+
+  &_btn {
+    &s {
+      padding-top: 10px;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &:first-child {
+      margin-right: 10px;
+    }
+
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 6px;
+    background: var(--Neutral500);
+    transition: all .4s ease-in-out;
+
+    &.active {
+      background: aqua;
+      pointer-events: none;
+    }
+
+    &.activeF {
+      background: orangered;
+      pointer-events: none;
+    }
+
+  }
+}

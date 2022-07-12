@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Poppins';
+  src:url('../assets/fonts/Poppins-Medium/Poppins-Medium.eot') ;
+  src:local('@'),url('../assets/fonts/Poppins-Medium/Poppins-Medium.woff2') format('woff2'),
+  url('../assets/fonts/Poppins-Medium/Poppins-Medium.ttf') format('truetype'),
+  url('../assets/fonts/Poppins-Medium/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

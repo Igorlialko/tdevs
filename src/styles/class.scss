@@ -1,0 +1,38 @@
+@import "variables";
+
+._container {
+  max-width: var(--maxWidthContainer);
+  margin: 0 auto;
+  @media (max-width: $md1) {
+    max-width: 904px;
+  }
+  @media (max-width: $md2) {
+    max-width: 704px;
+  }
+  @media (max-width: $md3) {
+    max-width: none;
+    padding: 0 16px;
+  }
+}
+
+.body_hidden {
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--Purple100);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: inset 0 0 15px var(--Purple500);
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}

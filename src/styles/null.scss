@@ -1,0 +1,100 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--standart);
+  background: var(--background);
+  font-family: var(--fontFamily);
+  overscroll-behavior: none;
+}
+
+html,
+body {
+  min-height: 100vh;
+  min-width: var(--minWidth);
+  font-size:var(--fontSize);
+  line-height: var(--lineHeight);
+}
+
+
+input,
+button,
+textarea {
+  color: var(--standart);
+  font-family: var(--fontFamily);
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: inherit;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  color: var(--standart);
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}

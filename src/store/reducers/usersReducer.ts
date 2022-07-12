@@ -1,7 +1,7 @@
 import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 import axios from "axios";
 
-import {alphabetEN, monthEN} from "../../const/global";
+import {alphabetEN, monthEN} from "../../helpers/const/global";
 import {IUser} from "../../types";
 
 interface IUsers {

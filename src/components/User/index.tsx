@@ -1,4 +1,4 @@
-import React, {FC} from "react";
+import React, {FC, memo} from "react";
 
 import {IUser} from "../../types";
 import {useTypedDispatch} from "../../hooks/useTypedRedux";
@@ -6,7 +6,7 @@ import { setActive } from "../../store/reducers/usersReducer";
 
 import st from "./index.module.scss";
 
-export const User: FC<{ user: IUser, letter: string }> = ({user, letter}) => {
+export const User: FC<{ user: IUser, letter: string }> = memo(({user, letter}) => {
   const dispatch = useTypedDispatch();
 
   const handleActive=()=>{
@@ -41,4 +41,4 @@ export const User: FC<{ user: IUser, letter: string }> = ({user, letter}) => {
       </div>
     </div>
   );
-};
+});

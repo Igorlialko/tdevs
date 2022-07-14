@@ -21,7 +21,7 @@ export function App() {
   }, []));
 
   useEffect(() => {
-    if(!Object.keys(JSON.parse(JSON.parse(localStorage["persist:root"])?.usersReducer)?.users)?.length){
+    if(!localStorage["persist:root"]){
       dispatch(getUsers());
     };
   }, [dispatch]);
@@ -39,7 +39,7 @@ export function App() {
       y:0,
       x:0,
     });
-  },[container1]);
+  },[isUsersLoading]);
   useEffect(()=>{
     if (!container2.current) return;
     gsapFromTo(container2.current.children,{
@@ -51,7 +51,7 @@ export function App() {
       y:0,
       x:0,
     });
-  },[container2,isActivatedUsers]);
+  },[isUsersLoading,isActivatedUsers]);
 
   return (
     <div className="App">

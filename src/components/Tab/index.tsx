@@ -24,7 +24,8 @@ export const Tab: FC<{ header: string, children: ReactNode, active?: boolean }> 
   const container = useRef<any>(null);
   useEffect(() => {
     if (!container.current) return;
-    const anim = gsapFromTo(container.current.children, {
+    const containerLength=container.current.children.length;
+    const anim =containerLength&& gsapFromTo(container.current.children, {
       scale: 0.9,
       y: 20,
       x: 20
@@ -34,6 +35,7 @@ export const Tab: FC<{ header: string, children: ReactNode, active?: boolean }> 
       x: 0,
     });
     return () => {
+      if (!containerLength) return;
       anim.kill();
     };
   }, [container, isOpen]);

@@ -1,5 +1,4 @@
 import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
-import axios from "axios";
 
 import {alphabetEN, monthEN} from "../../helpers/const/global";
 import {IUser} from "../../types";
@@ -26,23 +25,24 @@ const initialState: IInitialState = {
 export const getUsers = createAsyncThunk(
   "users/getUsers",
   async (_, {dispatch}) => {
-    const response = await axios.get("http://topdevsprojects.org:8081/tasks/users");
-    const transformRes = response.data.reduce((acc: IUsers, el: IUser) => {
-      acc[el.firstName[0]].push({...el, active: false});
-      return acc;
-    }, alphabetEN.reduce((accum: IUsers, elem) => {
-      accum[elem] = [];
-      return accum;
-    }, {}));
-    for (const letter of alphabetEN) {
-      transformRes[letter].sort((a: IUser, b: IUser) => {
-        if (a.firstName > b.firstName) return 1;
-        if (a.firstName < b.firstName) return -1;
-        return 0;
+    await fetch("http://topdevsprojects.org:8081/tasks/users").then(res=>res.json()).then(response=>{
+      const transformRes = response.reduce((acc: IUsers, el: IUser) => {
+        acc[el.firstName[0]].push({...el, active: false});
+        return acc;
+      }, alphabetEN.reduce((accum: IUsers, elem) => {
+        accum[elem] = [];
+        return accum;
+      }, {}));
+      for (const letter of alphabetEN) {
+        transformRes[letter].sort((a: IUser, b: IUser) => {
+          if (a.firstName > b.firstName) return 1;
+          if (a.firstName < b.firstName) return -1;
+          return 0;
+        }
+        );
       }
-      );
-    }
-    dispatch(setUsers(transformRes));
+      dispatch(setUsers(transformRes));
+    });
   }
 );
 
